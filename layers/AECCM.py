@@ -39,7 +39,7 @@ class AECCM(nn.Module):
 
     def forward(self, x):
         _, N, _ = x.shape
-        x = x.reshape(-1, self.inplanes, N, self.d_model//self.C)
+        x = x.reshape(-1, self.inplanes, N, self.d_model//self.inplanes)
         spatial_out = self.spatial_attention(x)
         out = x
         conv2_out = self.channel_add_conv2(spatial_out)
