@@ -24,10 +24,22 @@ Dataset download, including ETT*, weather, electricity, and traffic, via Google 
 
 
 
+# Cite the thesis
 
+If our work is helpful to you, please cite our paper.
 
-
-
+@article{JIANG2025113971,
+title = {mLANet: An efficient recurrent neural network for long-term time series forecasting},
+journal = {Knowledge-Based Systems},
+volume = {325},
+pages = {113971},
+year = {2025},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2025.113971},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705125010160},
+author = {Jihua Jiang and Bin Jiang and Yong Wang and Duoqian Miao},
+keywords = {Time series forecasting, Multivariate time series, Long-term dependencies},
+}
 
 # Acknowledgement
 This library is constructed based on the following repos:
