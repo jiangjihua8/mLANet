@@ -37,6 +37,9 @@ If our work is helpful to you, please cite our paper.
   publisher={Elsevier}
 }
 
+# License
+This code is distributed under an Apache License 2.0
+
 # Acknowledgement
 This library is constructed based on the following repos:
 
